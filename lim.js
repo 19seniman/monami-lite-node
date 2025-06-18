@@ -49,8 +49,6 @@ const logger = {
   console.log(green + bold('  FREE PALESTINE ') + reset + '   -   ' + yellow('19Seniman From  Insider') + '\n');
 };
 
-
-
 const userAgents = [
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
