@@ -1,13 +1,11 @@
 ## MONAMI LITE NODE BY MONAD NETWORK 
 
-An automated bot for interacting transaction with MONAMI LITE NODE
+An automated bot for interacting  with MONAMI LITE NODE
 
 ##  Prerequisites 
 ~ Node.js (v18 or higher)
 
 ~ npm or yarn
-
-~ HELIOS TESTNET wallet with private keys
 
 ~ (Optional) Proxy list in proxies.txt
 
@@ -26,17 +24,25 @@ An automated bot for interacting transaction with MONAMI LITE NODE
 ## INSTALLATION
 
 ```
-git clone https://github.com/19seniman/helios-testnet.git
+git clone https://github.com/19seniman/helios-testnet.git](https://github.com/19seniman/monami-lite-node.git
 ```
 ```
-cd helios-testnet
+cd monami-lite-node
 ```
 ```
 npm install
+npm install axios
 ```
 ```
-nano pk.txt
+nano .env
 ```
+add format on .en
+```
+EMAIL_1=
+PASS_1=
+```
+save: ctrl x y enter
+
 ~ Run The Script
 ```
 node lim.js
