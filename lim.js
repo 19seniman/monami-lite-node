@@ -26,7 +26,7 @@ const logger = {
   loading: (msg) => console.log(`${colors.cyan}[⟳] ${msg}${colors.reset}`),
   step: (msg) => console.log(`${colors.white}[➤] ${msg}${colors.reset}`),
   countdown: (msg) => process.stdout.write(`\r${colors.blue}[⏰] ${msg}${colors.reset}`),
-  const banner = () => {
+  banner = () => {
   const { bold, cyan, magenta, green, yellow, reset } = colors;
   console.log(magenta + '======================================================' + reset);
   console.log(cyan + bold(
