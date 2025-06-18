@@ -27,10 +27,10 @@ const logger = {
   step: (msg) => console.log(`${colors.white}[➤] ${msg}${colors.reset}`),
   countdown: (msg) => process.stdout.write(`\r${colors.blue}[⏰] ${msg}${colors.reset}`),
   banner: () => {
-    const { bold, cyan, magenta, yellow, reset } = colors;
+    const { cyan, magenta, reset } = colors;
     console.log(magenta + '=============================================' + reset);
-    console.log(cyan + bold('        FREE PALESTINE ') + reset);
-    console.log(cyan + bold('    19Sseniman From Insider') + reset);
+    console.log(cyan + '        FREE PALESTINE' + reset);
+    console.log(cyan + '       19Senniman from Insider' + reset);
     console.log(magenta + '=============================================' + reset);
     console.log();
   }
