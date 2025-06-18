@@ -47,6 +47,7 @@ const logger = {
   console.log(magenta + '======================================================' + reset);
   console.log();
   console.log(green + bold('  FREE PALESTINE ') + reset + '   -   ' + yellow('19Seniman From  Insider') + '\n');
+  }
 };
 
 const userAgents = [
