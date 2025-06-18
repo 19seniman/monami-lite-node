@@ -26,27 +26,13 @@ const logger = {
   loading: (msg) => console.log(`${colors.cyan}[⟳] ${msg}${colors.reset}`),
   step: (msg) => console.log(`${colors.white}[➤] ${msg}${colors.reset}`),
   countdown: (msg) => process.stdout.write(`\r${colors.blue}[⏰] ${msg}${colors.reset}`),
-  banner = () => {
-  const { bold, cyan, magenta, green, yellow, reset } = colors;
-  console.log(magenta + '======================================================' + reset);
-  console.log(cyan + bold(
-    '       __  __                      _       _           '
-  ));
-  console.log(cyan + bold(
-    '      |  \\/  | ___  _ __ ___   ___| | __ _| |_ ___  _ __ '
-  ));
-  console.log(cyan + bold(
-    '      | |\\/| |/ _ \\| \'_ ` _ \\ / _ \\ |/ _` | __/ _ \\| \'__|'
-  ));
-  console.log(cyan + bold(
-    '      | |  | | (_) | | | | | |  __/ | (_| | || (_) | |   '
-  ));
-  console.log(cyan + bold(
-    '      |_|  |_|\\___/|_| |_| |_|\\___|_|\\__,_|\\__\\___/|_|   '
-  ));
-  console.log(magenta + '======================================================' + reset);
-  console.log();
-  console.log(green + bold('  FREE PALESTINE ') + reset + '   -   ' + yellow('19Seniman From  Insider') + '\n');
+  banner: () => {
+    const { bold, cyan, magenta, yellow, reset } = colors;
+    console.log(magenta + '=============================================' + reset);
+    console.log(cyan + bold('        FREE PALESTINE ') + reset);
+    console.log(cyan + bold('    19Sseniman From Insider') + reset);
+    console.log(magenta + '=============================================' + reset);
+    console.log();
   }
 };
 
