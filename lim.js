@@ -29,7 +29,7 @@ const logger = {
   banner: () => {
     const { cyan, magenta, reset } = colors;
     console.log(magenta + '=============================================' + reset);
-    console.log(cyan + '        FREE PALESTINE' + reset);
+    console.log(cyan + '  🍉🍉PLEASE SUPPORT PALESTINE ON SOCIAL MEDIA 🍉🍉 ' + reset);
     console.log(cyan + '       19Senniman from Insider' + reset);
     console.log(magenta + '=============================================' + reset);
     console.log();
