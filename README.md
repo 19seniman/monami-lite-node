@@ -24,7 +24,7 @@ An automated bot for interacting  with MONAMI LITE NODE
 ## INSTALLATION
 
 ```
-git clone https://github.com/19seniman/helios-testnet.git](https://github.com/19seniman/monami-lite-node.git
+git clone https://github.com/19seniman/monami-lite-node.git
 ```
 ```
 cd monami-lite-node
